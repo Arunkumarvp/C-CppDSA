@@ -1,0 +1,1 @@
+/home/redmon/C-CppDSA/Rusty/learn/target/debug/learn: /home/redmon/C-CppDSA/Rusty/learn/src/main.rs /home/redmon/C-CppDSA/Rusty/learn/src/number/array.rs /home/redmon/C-CppDSA/Rusty/learn/src/oops/oops.rs /home/redmon/C-CppDSA/Rusty/learn/src/pattern/pattern.rs
