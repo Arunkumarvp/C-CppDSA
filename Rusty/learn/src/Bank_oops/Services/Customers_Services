@@ -1,0 +1,56 @@
+use std :: collections :: HashMap;
+
+
+
+
+
+
+#[path = "Bank_oops/Customers/PersonDetails.rs"]
+mod person_details;
+
+#[path = "Bank_oops/Customers/AccountDetails.rs"]
+mod account_details;
+
+use person_details :: Person;
+
+
+
+
+
+
+pub fn create_person(name : String, age : u8) -> Person {
+    Person {
+        name,
+        age,
+        DOB,
+    }
+}
+
+pub fn create__account(account_number : u32, account_type : String, balance : f64) -> Account {
+    Account {
+        account_number,
+        account_type,
+        balance,
+    }
+
+    let mut accounts: HashMap<u32,Account> = HashMap::new();
+
+
+    
+
+
+    accounts.insert(account_number, Account {
+        account_number,
+        account_type,
+        balance,
+    });
+
+
+
+
+
+
+
+}
+
+

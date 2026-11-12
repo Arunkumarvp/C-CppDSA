@@ -2,9 +2,8 @@
 
 using namespace std;
 
-int main() {
-    int n;
-    char c; // Changed to char to support symbols like '*', '#', etc.
+int hallow_square(int n, char c) {
+// Changed to char to support symbols like '*', '#', etc.
 
     cin >> n >> c;
     

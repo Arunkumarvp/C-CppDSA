@@ -1,5 +1,5 @@
-
-#[path = "oops/oops.rs"]
+#![allow(dead_code)]
+#[path = "Bank_oops/oops.rs"]
 mod oops;
 
 #[path = "number/array.rs"]
