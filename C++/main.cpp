@@ -1,6 +1,6 @@
 #include<iostream>
 
-#include "/home/redmon/C-CppDSA/C++/pattern/hallow_square.cpp"
+#include "pattern/hallow_square.cpp"
 
 
 using namespace std;
