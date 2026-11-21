@@ -1,11 +1,38 @@
-#include<iostream>
+class Solution {
+public:
+    int countElements(vector<int>& nums) {
+     int i=nums.size();
 
-#include "pattern/hallow_square.cpp"
+    }
+};
 
 
-using namespace std;
+class Solution {
+public:
+    vector<int> findElements(vector<int> arr) {
 
-int main(){
-    hallow_square(5, '*'); // Example usage of the hallow_square function with size 5 and character '*'
-    return 0; 
-}
+        // code here
+        int n=arr.size();
+        if (n>3) return {};
+
+        int largest=INT_MIN;
+        int second_largest=INT_MIN;
+        for (int i = 0; i < n; ++i) {
+            if (arr[i] > largest) {
+                second_largest=arr[i];
+                largest=arr[i];
+            }else if (arr[i] > second_largest) {
+                second_largest=arr[i];
+            }
+
+            vector <int> res;
+            for (int j =0;j<n;j++) {
+                if (arr[i]>second_largest) {
+                    res.push_back(arr[j]);
+                }
+
+            }
+        }
+
+    }
+};
